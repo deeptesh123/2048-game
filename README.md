@@ -4,6 +4,7 @@ It consists of three classes:
 
 1. grid-> In this class, the grid is initialized and the various operations to be performed are defined here
    a. create_empty_grid(): creates an empty board to start with
+   
    b. retrieve_empty_cells(): creates a list of all available empty cells
    c. select_random_cell(): from the list of empty cells, it selects a cell at random
    d. reverse_row(): reverses the contents of a row
@@ -15,10 +16,10 @@ It consists of three classes:
    j. has_empty_cells(): checks for empty cells in the grid
    k. reached_2048(): checks whether player has reached 2048(goal) or not
 
-2. GUI-> This class sets up and manages the Graphic User Interface.
+3. GUI-> This class sets up and manages the Graphic User Interface.
    a. start(): It paints/updates the board based of the values of the grid
 
-3. Game_flow-> Dictates the flow of the game
+4. Game_flow-> Dictates the flow of the game
    a. game_over(): Checks whether the game has finished or not
    b. set_ random_cells():sets the two initial cells at the start of the game
    c. initialize(): initiates the game by setting up the board
