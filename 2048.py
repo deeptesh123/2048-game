@@ -198,7 +198,7 @@ class Game_flow:
                 if ans=="yes": self.want_to_continue=True
                 self.game_over()
             if(self.can_move()==False):
-                msg.showinfo("Game over","Chal bsdk, game teri aukaat se bahar jaa chuki hai!")
+                msg.showinfo("Game over","The game is Over !!!")
                 self.over=True
                 self.game_over()
         
